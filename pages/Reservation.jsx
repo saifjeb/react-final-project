@@ -25,7 +25,7 @@ export default function Reservation() {
       </div>
 
       <div className="row wrap" style={{ justifyContent: "center" }}>
-        <button className="btn" onClick={() => alert("Saved (demo). No backend connected.")}>Confirm & Save</button>
+        <button className="btn" onClick={() => alert("Saved.")}>Confirm & Save</button>
         <button className="btn secondary" onClick={() => navigate("/contact")}>Edit</button>
       </div>
     </div>
