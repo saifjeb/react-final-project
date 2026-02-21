@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="card hero fade-in">
       <h1>Welcome to Aura Cafe</h1>
-      <p className="muted">A clean Vite + React front-end demo with a collapsible sidebar and simple role login.</p>
+      <p className="muted">A clean Vite + React front-end and simple role login.</p>
 
       <div className="row wrap" style={{ marginTop: 12 }}>
         <button className="btn" onClick={() => navigate("/contact")}>Add New Record</button>
